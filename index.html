@@ -6,10 +6,20 @@
     <script src="app.js"></script>
 </head>
 <body>
-    <div class=container></div>
-    <main>
-        <h1>Avengers Character Search</h1>
-
-        <button type="submit" name="search" class="btn">Search</button>
-    </main>
+    <div class=container>
+        <main>
+            <h1>Avengers Character Search</h1>
+            <form name="form" action="#" method="post">
+                <div>
+                    <label for="hero">Search by Full Name or Alias</label>
+                    <input type="text" name="hero" id="hero" placeholder="e.g. Captain America or Steve Rogers" size="50">
+                </div>
+                <button type="submit" name="search" class="btn">Search</button>
+            </form>
+            <div>
+                <h2>RESULT</h2>
+            </div>
+            <div class="result"></div>
+        </main>
+    </div>
 </body>
