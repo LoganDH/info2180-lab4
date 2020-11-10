@@ -85,6 +85,6 @@ $superheroes = [
         <?php endif; ?>
     <?php endforeach; ?>
     <?php if ($found == False): ?>
-        <h4>SUPERHERO NOT FOUND</h4>
+        <h4 class="notfound">SUPERHERO NOT FOUND</h4>
     <?php endif; ?>
 <?php endif; ?>

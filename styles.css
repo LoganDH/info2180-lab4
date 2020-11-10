@@ -1,0 +1,25 @@
+body {
+    background-color: #eaf5f8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+    text-align: center;
+    background-color: #006eff;
+    color: antiquewhite;
+    padding: 50px;
+}
+label {
+    font-weight: bold;
+}
+
+.btn {
+    padding: 5px;
+    background-color: red;
+    border-radius: 7px;
+    border: transparent;
+    color: #eaf5f8;
+}
+
+.result .notfound {
+    color: red;
+}
